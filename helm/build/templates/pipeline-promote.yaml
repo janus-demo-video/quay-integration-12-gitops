@@ -36,6 +36,8 @@ spec:
       workspaces:
         - name: docker-config
           workspace: docker-config
+  workspaces:
+    - name: docker-config
 {{- else }}
     - name: copy-image-tag
       params:
